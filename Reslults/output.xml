@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.2 on win32)" generated="20200419 18:08:07.855" rpa="false">
+<suite id="s1" name="Tests" source="C:\Users\lina\PycharmProjects\Testagain\Tests">
+<suite id="s1-s1" name="Amazon" source="C:\Users\lina\PycharmProjects\Testagain\Tests\amazon.robot">
+<test id="s1-s1-t1" name="User Can access amazon.com">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200419 18:08:08.270" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20200419 18:08:08.269" endtime="20200419 18:08:11.853"></status>
+</kw>
+<kw name="Got To">
+<arguments>
+<arg>https://www.amazon.com/</arg>
+</arguments>
+<msg timestamp="20200419 18:08:11.866" level="FAIL">No keyword with name 'Got To' found. Did you mean:
+    SeleniumLibrary.Go To</msg>
+<status status="FAIL" starttime="20200419 18:08:11.866" endtime="20200419 18:08:11.866"></status>
+</kw>
+<doc>Basic Info about the test</doc>
+<tags>
+<tag>Test 1</tag>
+</tags>
+<status status="FAIL" starttime="20200419 18:08:08.268" endtime="20200419 18:08:11.867" critical="yes">No keyword with name 'Got To' found. Did you mean:
+    SeleniumLibrary.Go To</status>
+</test>
+<doc>Information about the test</doc>
+<status status="FAIL" starttime="20200419 18:08:07.910" endtime="20200419 18:08:11.871"></status>
+</suite>
+<status status="FAIL" starttime="20200419 18:08:07.859" endtime="20200419 18:08:11.878"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">Test 1</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Tests">Tests</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Amazon">Tests.Amazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
