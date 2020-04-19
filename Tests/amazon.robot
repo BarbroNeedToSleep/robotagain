@@ -11,7 +11,7 @@ User Can access amazon.com
     [Tags]              Test 1
 
     Open Browser                about:blank         chrome
-    Go To                      https://www.amazon.com/
+    Go To                      https://localhost:44321/
     Maximize Browser Window
-    Wait Until Page Contains    Discover Amazon
+    Wait Until Page Contains    Welcome
     Close Browser
